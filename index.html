@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://barisalbarassociation.com/hou/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Specific Meta -->
+    <title>NBA Playoffs Rounds Win Totals per teamsince 1984</title>
+
+    <!-- js -->
+   <!--  <script src="./jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- <script src="http://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script> -->
+    <script src="js/flip.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/isotope.css" media="all">
+    <link rel="stylesheet" href="css/nba.css" media="all">
+    <link rel="stylesheet" href="css/flip.css" media="all">
+    <link rel="stylesheet" href="css/ow_flip.css" media="all">
+  </head>
+
+  <body>
+
+    <h1>NBA Playoffs Rounds Result totals per team since 1984:</h1>
+    <div class="button-group filters-button-group">
+      <button class="button is-checked" data-filter=".playoffs">Made Playoffs</button>
+      <button class="button" data-filter=".round1">Won Round-1</button>
+      <button class="button" data-filter=".round2">Won Round-2</button>
+      <button class="button" data-filter=".round3">NBA Finalists</button>
+      <button class="button" data-filter=".round4">NBA Champions</button>
+    </div>
+
+    <div class="grid" id="nba">
+
+    <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="spurs">
+            <p class="number">29</p>
+            <p class="symbol">SA</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_spurs" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 29/33 seasons</p>
+            <p class="styl2">88%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+  	<div class="card-container manual-flip element-item playoffs init">
+    	<div class="card">
+          <div class="front" onclick="rotateCard(this)" id="lakers">
+            <p class="number">28</p>
+            <p class="symbol">LAL</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_lakers" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 28/33 seasons</p>
+            <p class="styl2">85%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+     
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="blazers">
+            <p class="number">26</p>
+            <p class="symbol">POR</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_blazers" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 26/33 seasons</p>
+            <p class="styl2">78%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="jazz">
+            <p class="number">25</p>
+            <p class="symbol">UTA</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_jazz" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 25/33 seasons</p>
+            <p class="styl2">76%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="bulls">
+            <p class="number">24</p>
+            <p class="symbol">CHI</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_bulls" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 24/33 seasons</p>
+            <p class="styl2">73%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="celtics">
+            <p class="number">23</p>
+            <p class="symbol">BOS</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_celtics" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 23/33 seasons</p>
+            <p class="styl2">70%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="rockets">
+            <p class="number">23</p>
+            <p class="symbol">HOU</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_rockets" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 23/33 seasons</p>
+            <p class="styl2">70%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="pistons">
+            <p class="number">22</p>
+            <p class="symbol">DET</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_pistons" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 22/33 seasons</p>
+            <p class="styl2">66%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+     
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="pacers">
+            <p class="number">22</p>
+            <p class="symbol">IND</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_pacers" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 22/33 seasons</p>
+            <p class="styl2">66%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="hawks">
+            <p class="number">22</p>
+            <p class="symbol">ATL</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_hawks" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 22/33 seasons</p>
+            <p class="styl2">66%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="mavs">
+            <p class="number">21</p>
+            <p class="symbol">DAL</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_mavs" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 21/33 seasons</p>
+            <p class="styl2">63%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="suns">
+            <p class="number">21</p>
+            <p class="symbol">PHX</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_suns" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 21/33 seasons</p>
+            <p class="styl2">63%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="heat">
+            <p class="number">19</p>
+            <p class="symbol">MIA</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_heat" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 19/28 seasons</p>
+            <p class="styl2">68%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="knicks">
+            <p class="number">19</p>
+            <p class="symbol">NY</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_knicks" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 19/33 seasons</p>
+            <p class="styl2">57%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="nuggets">
+            <p class="number">19</p>
+            <p class="symbol">DEN</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_nuggets" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 19/33 seasons</p>
+            <p class="styl2">57%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="bucks">
+            <p class="number">17</p>
+            <p class="symbol">MIL</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_bucks" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 17/33 seasons</p>
+            <p class="styl2">51%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="sixers">
+            <p class="number">17</p>
+            <p class="symbol">PHI</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_sixers" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 17/33 seasons</p>
+            <p class="styl2">51%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="cavs">
+            <p class="number">17</p>
+            <p class="symbol">CLE</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_cavs" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 17/33 seasons</p>
+            <p class="styl2">51%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="sonics">
+            <p class="number">15</p>
+            <p class="symbol">SEA</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_sonics" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 15/25 seasons</p>
+            <p class="styl2">60%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="magic">
+            <p class="number">14</p>
+            <p class="symbol">ORL</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_magic" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 14/28 seasons</p>
+            <p class="styl2">50%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="njnets">
+            <p class="number">13</p>
+            <p class="symbol">NJ</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_njnets" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 13/29 seasons</p>
+            <p class="styl2">45%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="wizards">
+            <p class="number">12</p>
+            <p class="symbol">WAS</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_wizards" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 12/33 seasons</p>
+            <p class="styl2">36%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="hornets">
+            <p class="number">10</p>
+            <p class="symbol">CHA</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_hornets" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 10/26 seasons</p>
+            <p class="styl2">38%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="kings">
+            <p class="number">10</p>
+            <p class="symbol">SAC</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_kings" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 10/31 seasons</p>
+            <p class="styl2">32%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="warriors">
+            <p class="number">10</p>
+            <p class="symbol">GS</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_warriors" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 10/33 seasons</p>
+            <p class="styl2">30%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="grizzlies">
+            <p class="number">9</p>
+            <p class="symbol">MEM</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_grizzlies" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 9/15 seasons</p>
+            <p class="styl2">60%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="clippers">
+            <p class="number">9</p>
+            <p class="symbol">LAC</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_clippers" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 9/33 seasons</p>
+            <p class="styl2">27%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="raptors">
+            <p class="number">8</p>
+            <p class="symbol">TOR</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_raptors" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 8/21 seasons</p>
+            <p class="styl2">38%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="wolves">
+            <p class="number">8</p>
+            <p class="symbol">MIN</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_wolves" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 8/28 seasons</p>
+            <p class="styl2">29%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="thunder">
+            <p class="number">6</p>
+            <p class="symbol">OKC</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_thunder" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 6/8 seasons</p>
+            <p class="styl2">75%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="pelicans">
+            <p class="number">6</p>
+            <p class="symbol">NO</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_pelicans" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 6/14 seasons</p>
+            <p class="styl2">43%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="nets">
+            <p class="number">3</p>
+            <p class="symbol">BRK</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_nets" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 3/4 seasons</p>
+            <p class="styl2">75%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div>
+
+     <div class="card-container manual-flip element-item playoffs init">
+      <div class="card">
+          <div class="front" onclick="rotateCard(this)" id="vangrizzlies">
+            <p class="number">0</p>
+            <p class="symbol">VAN</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+          <div class="back absolute topleft0" id="alt_vangrizzlies" onclick="rotateCard(this)">
+            <p class="styl1">Made Playoffs 0/6 seasons</p>
+            <p class="styl2">0%</p>
+            <p class="spin_btn"><img src="img/arrw.png" /></p>
+          </div>
+      </div>
+     </div> 
+
+     
+
+            
+ 
+
+
+      <div class="element-item round1" id="lakers">
+        <p class="number">22</p>
+        <p class="symbol">LAL</p>
+      </div>
+      <div class="element-item round1" id="spurs">
+        <p class="number">19</p>
+        <p class="symbol">SA</p>
+      </div>
+      <div class="element-item round1" id="bulls">
+        <p class="number">15</p>
+        <p class="symbol">CHI</p>
+      </div>
+      <div class="element-item round1" id="celtics">
+        <p class="number">14</p>
+        <p class="symbol">BOS</p>
+      </div>
+      <div class="element-item round1" id="jazz">
+        <p class="number">14</p>
+        <p class="symbol">UTH</p>
+      </div>
+      <div class="element-item round1" id="pistons">
+        <p class="number">13</p>
+        <p class="symbol">DET</p>
+      </div>
+      <div class="element-item round1" id="knicks">
+        <p class="number">13</p>
+        <p class="symbol">NY</p>
+      </div>
+      <div class="element-item round1" id="suns">
+        <p class="number">12</p>
+        <p class="symbol">PHX</p>
+      </div>
+      <div class="element-item round1" id="hawks">
+        <p class="number">12</p>
+        <p class="symbol">ATL</p>
+      </div>
+      <div class="element-item round1" id="pacers">
+        <p class="number">11</p>
+        <p class="symbol">IND</p>
+      </div>
+      <div class="element-item round1" id="heat">
+        <p class="number">10</p>
+        <p class="symbol">MIA</p>
+      </div>
+      <div class="element-item round1" id="mavs">
+        <p class="number">10</p>
+        <p class="symbol">DAL</p>
+      </div>
+      <div class="element-item round1" id="rockets">
+        <p class="number">9</p>
+        <p class="symbol">HOU</p>
+      </div>
+      <div class="element-item round1" id="sixers">
+        <p class="number">9</p>
+        <p class="symbol">PHI</p>
+      </div>
+      <div class="element-item round1" id="cavs">
+        <p class="number">9</p>
+        <p class="symbol">CLE</p>
+      </div>
+      <div class="element-item round1" id="sonics">
+        <p class="number">8</p>
+        <p class="symbol">SEA</p>
+      </div>
+      <div class="element-item round1" id="blazers">
+        <p class="number">8</p>
+        <p class="symbol">POR</p>
+      </div>
+      <div class="element-item round1" id="warriors">
+        <p class="number">7</p>
+        <p class="symbol">GS</p>
+      </div>
+      <div class="element-item round1" id="njnets">
+        <p class="number">6</p>
+        <p class="symbol">NJ</p>
+      </div>
+      <div class="element-item round1" id="bucks">
+        <p class="number">6</p>
+        <p class="symbol">MIL</p>
+      </div>
+      <div class="element-item round1" id="nuggets">
+        <p class="number">6</p>
+        <p class="symbol">DEN</p>
+      </div>
+      <div class="element-item round1" id="thunder">
+        <p class="number">5</p>
+        <p class="symbol">OKC</p>
+      </div>
+      <div class="element-item round1" id="magic">
+        <p class="number">5</p>
+        <p class="symbol">ORL</p>
+      </div>
+      <div class="element-item round1" id="hornets">
+        <p class="number">4</p>
+        <p class="symbol">CHA</p>
+      </div>
+      <div class="element-item round1" id="kings">
+        <p class="number">4</p>
+        <p class="symbol">SAC</p>
+      </div>
+      <div class="element-item round1" id="grizzlies">
+        <p class="number">3</p>
+        <p class="symbol">MEM</p>
+      </div>
+      <div class="element-item round1" id="clippers">
+        <p class="number">3</p>
+        <p class="symbol">LAC</p>
+      </div>
+      <div class="element-item round1" id="wizards">
+        <p class="number">3</p>
+        <p class="symbol">WAS</p>
+      </div>
+      <div class="element-item round1" id="raptors">
+        <p class="number">2</p>
+        <p class="symbol">TOR</p>
+      </div>
+      <div class="element-item round1" id="wolves">
+        <p class="number">1</p>
+        <p class="symbol">MIN</p>
+      </div>
+      <div class="element-item round1" id="nets">
+        <p class="number">1</p>
+        <p class="symbol">BRK</p>
+      </div>
+      <div class="element-item round1" id="pelicans">
+        <p class="number">1</p>
+        <p class="symbol">NO</p>
+      </div>
+
+
+
+
+
+      
+      <div class="element-item round2" id="lakers">
+        <p class="number">15</p>
+        <p class="symbol">LAL</p>
+      </div>
+      <div class="element-item round2" id="pistons">
+        <p class="number">11</p>
+        <p class="symbol">DET</p>
+      </div>
+      <div class="element-item round2" id="spurs">
+        <p class="number">10</p>
+        <p class="symbol">SA</p>
+      </div>
+      <div class="element-item round2" id="celtics">
+        <p class="number">9</p>
+        <p class="symbol">BOS</p>
+      </div>
+      <div class="element-item round2" id="bulls">
+        <p class="number">9</p>
+        <p class="symbol">CHI</p>
+      </div>
+      <div class="element-item round2" id="pacers">
+        <p class="number">8</p>
+        <p class="symbol">IND</p>
+      </div>
+      <div class="element-item round2" id="heat">
+        <p class="number">7</p>
+        <p class="symbol">MIA</p>
+      </div>
+      <div class="element-item round2" id="suns">
+        <p class="number">7</p>
+        <p class="symbol">PHX</p>
+      </div>
+      <div class="element-item round2" id="jazz">
+        <p class="number">6</p>
+        <p class="symbol">UTH</p>
+      </div>
+      <div class="element-item round2" id="rockets">
+        <p class="number">5</p>
+        <p class="symbol">HOU</p>
+      </div>
+      <div class="element-item round2" id="blazers">
+        <p class="number">5</p>
+        <p class="symbol">POR</p>
+      </div>
+      <div class="element-item round2" id="cavs">
+        <p class="number">5</p>
+        <p class="symbol">CLE</p>
+      </div>
+      <div class="element-item round2" id="thunder">
+        <p class="number">4</p>
+        <p class="symbol">OKC</p>
+      </div>
+      <div class="element-item round2" id="knicks">
+        <p class="number">4</p>
+        <p class="symbol">NYK</p>
+      </div>
+      <div class="element-item round2" id="mavs">
+        <p class="number">4</p>
+        <p class="symbol">DAL</p>
+      </div>
+      <div class="element-item round2" id="magic">
+        <p class="number">4</p>
+        <p class="symbol">ORL</p>
+      </div>
+      <div class="element-item round2" id="sonics">
+        <p class="number">3</p>
+        <p class="symbol">SEA</p>
+      </div>
+      <div class="element-item round2" id="bucks">
+        <p class="number">3</p>
+        <p class="symbol">MIL</p>
+      </div>
+      <div class="element-item round2" id="njnets">
+        <p class="number">2</p>
+        <p class="symbol">NJ</p>
+      </div>
+      <div class="element-item round2" id="sixers">
+        <p class="number">2</p>
+        <p class="symbol">PHI</p>
+      </div>
+      <div class="element-item round2" id="nuggets">
+        <p class="number">2</p>
+        <p class="symbol">DEN</p>
+      </div>
+      <div class="element-item round2" id="warriors">
+        <p class="number">2</p>
+        <p class="symbol">GS</p>
+      </div>
+      <div class="element-item round2" id="hawks">
+        <p class="number">1</p>
+        <p class="symbol">ATL</p>
+      </div>
+      <div class="element-item round2" id="grizzlies">
+        <p class="number">1</p>
+        <p class="symbol">MEM</p>
+      </div>
+       <div class="element-item round2" id="raptors">
+        <p class="number">1</p>
+        <p class="symbol">TOR</p>
+      </div>
+      <div class="element-item round2" id="wolves">
+        <p class="number">1</p>
+        <p class="symbol">MIN</p>
+      </div>
+      <div class="element-item round2" id="kings">
+        <p class="number">1</p>
+        <p class="symbol">SAC</p>
+      </div>
+      <div class="element-item round2" id="njnets">
+        <p class="number">0</p>
+        <p class="notyet">WAS, LAC,<br/>CHA, NO,<br/>BRK</p>
+      </div>
+
+
+
+
+      <div class="element-item round3" id="lakers">
+        <p class="number">13</p>
+        <p class="symbol">LAL</p>
+      </div>
+      <div class="element-item round3" id="spurs">
+        <p class="number">6</p>
+        <p class="symbol">SA</p>
+      </div>
+      <div class="element-item round3" id="bulls">
+        <p class="number">6</p>
+        <p class="symbol">CHI</p>
+      </div>
+      <div class="element-item round3" id="celtics">
+        <p class="number">6</p>
+        <p class="symbol">BOS</p>
+      </div>
+      <div class="element-item round3" id="heat">
+        <p class="number">5</p>
+        <p class="symbol">MIA</p>
+      </div>
+      <div class="element-item round3" id="pistons">
+        <p class="number">5</p>
+        <p class="symbol">DET</p>
+      </div>
+      <div class="element-item round3" id="cavs">
+        <p class="number">3</p>
+        <p class="symbol">CLE</p>
+      </div>
+      <div class="element-item round3" id="rockets">
+        <p class="number">3</p>
+        <p class="symbol">HOU</p>
+      </div>
+      <div class="element-item round3" id="jazz">
+        <p class="number">2</p>
+        <p class="symbol">UTH</p>
+      </div>
+      <div class="element-item round3" id="mavs">
+        <p class="number">2</p>
+        <p class="symbol">DAL</p>
+      </div>
+      <div class="element-item round3" id="knicks">
+        <p class="number">2</p>
+        <p class="symbol">NY</p>
+      </div>
+      <div class="element-item round3" id="njnets">
+        <p class="number">2</p>
+        <p class="symbol">NJ</p>
+      </div>
+      <div class="element-item round3" id="blazers">
+        <p class="number">2</p>
+        <p class="symbol">POR</p>
+      </div>
+      <div class="element-item round3" id="magic">
+        <p class="number">2</p>
+        <p class="symbol">ORL</p>
+      </div>
+      <div class="element-item round3" id="warriors">
+        <p class="number">2</p>
+        <p class="symbol">GS</p>
+      </div>
+      <div class="element-item round3" id="sonics">
+        <p class="number">1</p>
+        <p class="symbol">SEA</p>
+      </div>
+      <div class="element-item round3" id="pacers">
+        <p class="number">1</p>
+        <p class="symbol">IND</p>
+      </div>
+      <div class="element-item round3" id="thunder">
+        <p class="number">1</p>
+        <p class="symbol">OKC</p>
+      </div>
+      <div class="element-item round3" id="sixers">
+        <p class="number">1</p>
+        <p class="symbol">PHI</p>
+      </div>
+      <div class="element-item round3" id="suns">
+        <p class="number">1</p>
+        <p class="symbol">PHX</p>
+      </div>
+
+
+
+      <div class="element-item round4" id="lakers">
+        <p class="number">8</p>
+        <p class="symbol">LAL</p>
+      </div>
+      <div class="element-item round4" id="bulls">
+        <p class="number">6</p>
+        <p class="symbol">CHI</p>
+      </div>
+      <div class="element-item round4" id="spurs">
+        <p class="number">5</p>
+        <p class="symbol">SA</p>
+      </div>
+      <div class="element-item round4" id="heat">
+        <p class="number">3</p>
+        <p class="symbol">MIA</p>
+      </div>
+      <div class="element-item round4" id="pistons">
+        <p class="number">3</p>
+        <p class="symbol">DET</p>
+      </div>
+      <div class="element-item round4" id="celtics">
+        <p class="number">3</p>
+        <p class="symbol">BOS</p>
+      </div>
+      <div class="element-item round4" id="rockets">
+        <p class="number">2</p>
+        <p class="symbol">HOU</p>
+      </div>
+      <div class="element-item round4" id="mavs">
+        <p class="number">1</p>
+        <p class="symbol">DAL</p>
+      </div>
+      <div class="element-item round4" id="warriors">
+        <p class="number">1</p>
+        <p class="symbol">GS</p>
+      </div>
+      <div class="element-item round4" id="cavs">
+        <p class="number">1</p>
+        <p class="symbol">CLE</p>
+      </div>
+
+  
+
+    </div>
+    <div class="launch">Launched: Aug 10, 2016</div>
+<a href="https://drive.google.com/file/d/0B80mBRciBOhBb1NpUHJhb0pSMEE/view?usp=sharing" target="_blank" class="floatright">Data</a>
+  
+  <script src="js/iso-customize.js"></script>
+
+
+</body></html>

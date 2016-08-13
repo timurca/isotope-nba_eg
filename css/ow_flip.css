@@ -1,0 +1,17 @@
+.absolute { position: absolute; }
+.topleft0 { top: 0; left: 0; }
+.margin0 { margin: 0; }
+.pointer { cursor: pointer; }
+.floatright { float: right; font-size: 0.7em; }
+
+body { background: #DDD; font-family:'Roboto', sans-serif;font-weight:300 }
+.grid { background: white; border: 1px solid #CCC; position: relative; top:-8px; }
+h1 { color: #555; margin-bottom: 14px; }
+
+.launch { text-align:center; font-size:0.5em; }
+
+@media only screen and (max-width: 600px){
+
+	div.button-group button.button { width: 100%; border-radius: 0 !important; }
+	h1 { text-align: center; padding: 0 50px; }
+	}
